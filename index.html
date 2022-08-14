@@ -1,15 +1,139 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Coda: Piano for Everyone</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Coda: Piano for Everyone</title>
+</head>
+<body>
+  <div class="top text-center">
+    <div class="container py-4">
+      <h1 class="my-5"><em>Coda</em></h1>
+      <h3>Learn new songs with a piano MIDI visualiser</h3>
+      <img src="appinuse.png" class="appinuse my-5">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <p>Coda can help you learn how to play the piano using falling notes. Upload any MIDI file and it will generate a falling-notes video to show you which keys to play.</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <a class="btn btn-primary my-3" href="https://shkvae.gumroad.com/l/coda?wanted=true" role="button">Start Now</a>
+          <a class="btn btn-primary my-3" href="#" role="button">Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container my-3">
+    <h3 class="text-center my-5">Features</h3>
+    <div class="bd-callout">
+
+      <div class="row">
+        <div class="col-lg-10 col-md-8 col-sm-6">
+          <h5>New! Key highlighting &#10024;</h5>
+          <p>Finding chords just became so much easier. One of the difficult aspects of learning from falling notes is working out which keys will be highlighted next. In Coda, the next keys to play will light up in <code class="highlighter-rouge">red</code> so you know exactly where to put your fingers.  No more guessing!</p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="highlight.png" class="w-100 next-note">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bd-callout">
+      <h5>Easy navigation and bookmarks &#128204;</h5>
+      <p>Learning a new song requires <em>a lot</em> of repetition. Coda has useful touch controls to help you navigate through the song. For example, you can set a <code class="highlighter-rouge">bookmark</code> at a specific point. Whenever you want to rewind to that part, just tap once on the left of the screen.</p>
+    </div>
+
+    <div class="bd-callout">
+      <h5>Practice anywhere &#127758;</h5>
+      <p>Coda runs in your web browser, so you don't need to install any apps or software on your phone or computer. This also means it can run on any device! Android, iOS and Windows are all supported.</p>
+    </div>
+
+    <h3 class="text-center my-5">Why Coda?</h3>
+
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <p>Coda was designed with simplicity in mind. It offers all of the core features of Synthesia for a fraction of the price. This makes it the ideal choice for the pianist who wants to learn new songs visually, but doesn't need all the extra features of Synthesia.</p>
+      </div>
+    </div>
+
+    
+
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <table class="table">
+          <!-- <caption>*As of 13th Aug 2022, converted to GBP</caption> -->
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Coda</th>
+              <th scope="col">Synthesia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Play any piano MIDI</th>
+              <td>&#10004;</td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Speed adjustment</th>
+              <td>&#10004;</td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Different colours for left and right hands</th>
+              <td>&#10004;</td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Accurate piano sounds</th>
+              <td>&#10004;</td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Android, iOS and Windows support</th>
+              <td>&#10004;</td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Next-key highlighting</th>
+              <td>&#10004;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Plug-in MIDI keyboard support</th>
+              <td></td>
+              <td>&#10004;</td>
+            </tr>
+            <tr>
+              <th scope="row">Live sheet music view</th>
+              <td></td>
+              <td>&#10004;</td>
+            </tr>
+<!--             <tr>
+              <th scope="row">Price*</th>
+              <td>£2.99</td>
+              <td>£23.00</td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <p>Copyright (c) 2022 <a href="https://www.youtube.com/c/keshhh/featured" class="link-dark">Kesh</a></p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
 </html>
