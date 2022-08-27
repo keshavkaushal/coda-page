@@ -49,3 +49,7 @@ body {}
 .btn-outline-light:focus-visible {
 	outline: none;
 }
+
+.aspect {
+	aspect-ratio: 16 / 9;
+}
