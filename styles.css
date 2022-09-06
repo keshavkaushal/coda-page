@@ -32,6 +32,10 @@ body {}
 	/*border: 4px solid #000;*/
 }
 
+.pp {
+	border-radius: 50%;
+}
+
 .footer {
 	background-color: #ededed;
 	color: #121212;
