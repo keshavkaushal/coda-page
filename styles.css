@@ -3,6 +3,27 @@ body {}
 .top {
 	background-color: #121212;
 	color: white;
+	height: 100vh;
+	position: relative;
+}
+
+.top video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.big-logo {
+	width: 8vw;
+}
+
+.textoverlay {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding: 10px;
 }
 
 .bd-callout {

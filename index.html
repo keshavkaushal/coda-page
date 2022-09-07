@@ -11,7 +11,7 @@
 
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>Coda: Piano for Everyone</title>
+  <title>Coda | Piano for Everyone</title>
 
   <!-- Global site tag (gtag.js) - Google Ads: 10791453757 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10791453757"></script>
@@ -30,22 +30,23 @@
 
 </head>
 <body>
-  <div class="top text-center">
-    <div class="container py-4">
-      <h1 class="my-4 display-2">Coda</h1>
-      <h3>A piano app for everyone</h3>
-      <img src="appinuse.png" class="appinuse my-4">
-      
-      <div class="row">
-        <div class="col">
-          <a class="btn btn-outline-light my-3 mx-1" href="https://shkvae.gumroad.com/l/coda?wanted=true" data-gumroad-single-product="true" role="button">Unlock for £1</a>
-          <a class="btn btn-outline-light my-3 mx-1" href="https://keshavkaushal.github.io/coda-lite/" target="_blank" role="button">Try it free</a>
-          <p>Made with &#10084;&#65039; by Kesh. Learn more &#128071;</p>
+  <div class="top d-flex justify-content-center align-items-center">
+    <video autoplay muted loop id="myVideo">
+      <source src="cloose.mov" type="video/mp4">
+      </video>
+      <div class="textoverlay text-center">
+        <img src="coda-white.png" class="big-logo">
+        <h1 class="mb-3 display-1">Coda</h1>
+        <h2>A piano app for everyone</h2>
+        <div class="row mt-4">
+          <div class="col">
+            <a class="btn btn-outline-light my-3 mx-1" href="https://shkvae.gumroad.com/l/coda?wanted=true" data-gumroad-single-product="true" role="button">Unlock for £1</a>
+            <a class="btn btn-outline-light my-3 mx-1" href="https://keshavkaushal.github.io/coda-lite/" target="_blank" role="button">Try it free <i class="bi bi-stars"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container my-3">
+    <div class="container my-3">
 
 <!--     <h3 class="text-center my-5">Overview</h3>
 
@@ -55,7 +56,13 @@
       </div>
     </div> -->
 
-    <h3 class="text-center my-5">Overview</h3>
+    <h3 class="text-center mt-5 mb-4">Overview</h3>
+
+    <div class="row text-center mb-5">
+      <div class="col-md-8 offset-md-2">
+        <p>Coda is a piano MIDI player that creates falling notes to show you which keys to play next.</p>
+      </div>
+    </div>
 
     <div class="row">
 
@@ -64,7 +71,7 @@
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
               <h5>Learn my Covers <i class="bi bi-music-note-beamed"></i></h5>
-              <p>You can learn any song from <a href="https://www.youtube.com/channel/UCBnkkHAGS87i91ofib3JwyQ" class="link-dark">my YouTube channel</a>. MIDI files for all 200+ videos are available for free.</p>
+              <p>You can learn ANY song from my YouTube channel! MIDI files for all <a href="https://www.youtube.com/channel/UCBnkkHAGS87i91ofib3JwyQ" class="link-dark">200+ videos</a> are available for free.</p>
               <p>In addition, piano MIDI files are available online for almost every popular song. Just search for "Song Name piano MIDI"</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -78,7 +85,7 @@
           <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
               <h5>Light-up Keys <i class="bi bi-lightbulb"></i></h5>
-              <p>In Coda, the next keys to play will light up in <code class="highlighter-rouge">red</code> so you know exactly where to place your fingers. Finding chords just became so much easier!</p>
+              <p>In Coda, the next keys to play will light up in red so you know exactly where to place your fingers. Finding chords just became so much easier!</p>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
               <img src="highlight.png" class="w-100 next-note">
@@ -88,102 +95,97 @@
       </div>
       <div class="col-md-6 my-2">
         <div class="bd-callout h-100">
-          <h5>Android, iOS and Windows <i class="bi bi-app-indicator"></i></h5>
-          <p>Coda runs in your web browser, so you don't need to install any apps or software. This also means it can run on any device. Android, iOS and Windows are all supported!</p>
+          <h5>Easy Song Navigation <i class="bi bi-compass"></i></h5>
+          <p>Coda has useful controls to help you navigate through any song. For example, you can set a bookmark at a specific point. Whenever you want to rewind to that part, just tap once on the left-hand side of the screen.</p>
         </div>
       </div>
       <div class="col-md-6 my-2">
         <div class="bd-callout h-100">
-          <h5>Song Bookmarks <i class="bi bi-bookmark-check"></i></h5>
-          <p>Coda has useful controls to help you navigate through any song. For example, you can set a <code class="highlighter-rouge">bookmark</code> at a specific point. Whenever you want to rewind to that part, just tap once on the left-hand side of the screen.</p>
+          <h5>Compatible Everywhere <i class="bi bi-app-indicator"></i></h5>
+          <p>Coda runs in your web browser, so you don't need to install any apps or software. This also means it can run on any device. Android, iOS, Windows and Mac are all supported!</p>
+        </div>
+      </div>
+      <div class="col-md-6 my-2">
+        <div class="bd-callout h-100">
+          <h5>Learn at your own speed <i class="bi bi-speedometer2"></i></h5>
+          <p>Adjust the song tempo until you're comfortable to follow along. You can slow down the song to 0.1x with no loss in quality and an accurate piano sound sampled from a Yamaha C5 grand piano.</p>
+        </div>
+      </div>
+      <div class="col-md-6 my-2">
+        <div class="bd-callout h-100">
+          <h5>Great Value <i class="bi bi-balloon-heart"></i></h5>
+          <p>Coda offers all of the features needed to learn new songs on the piano for a fraction of the price of other piano apps (Simply Piano is $149.99 per year! &#129314;). This makes it the ideal choice for the pianist who wants to learn new songs.</p>
         </div>
       </div>
     </div>
 
-    <h3 class="text-center my-5">Why Coda?</h3>
+<!--     <h3 class="text-center my-5">Why Coda?</h3>
 
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <p>Coda was designed with simplicity in mind. It offers all of the core features of Synthesia for a fraction of the price. This makes it the ideal choice for the pianist who wants to learn new songs visually, but doesn't need the extra features of Synthesia.</p>
+        <p>Coda offers all of the features needed to learn new songs on the piano for a fraction of the price of other piano apps (Simply Piano is £20/month!). This makes it the ideal choice for the pianist who wants to learn new songs.</p>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-6 offset-md-3">
         <table class="table">
-          <!-- <caption>*As of 13th Aug 2022, converted to GBP</caption> -->
           <thead>
             <tr>
               <th scope="col"></th>
               <th scope="col">Coda</th>
-              <th scope="col">Synthesia</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Play any piano MIDI</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <th scope="row">Learn any piano MIDI</th>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
             <tr>
               <th scope="row">Song speed adjustment</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
             <tr>
               <th scope="row">Different colours for left and right hands</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
             <tr>
               <th scope="row">Accurate piano sound</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
             <tr>
               <th scope="row">Android, iOS and Windows support</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
             <tr>
               <th scope="row">Next-key highlighting!</th>
-              <td><i class="bi bi-check-lg"></i></td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">Plug-in MIDI keyboard support</th>
-              <td></td>
-              <td><i class="bi bi-check-lg"></i></td>
-            </tr>
-            <tr>
-              <th scope="row">Live sheet music view</th>
-              <td></td>
-              <td><i class="bi bi-check-lg"></i></td>
+              <td class="text-center"><i class="bi bi-check-lg"></i></td>
             </tr>
           </tbody>
         </table>
       </div>
-    </div>
+    </div> -->
 
     <h3 class="text-center my-5">Get Started</h3>
 
     <div class="row text-center">
       <div class="col-md-8 offset-md-2">
-        <p>Get lifetime access for just £1. Start learning new songs today!</p>
+        <p>Get instant access for just £1 and start learning new songs today!</p>
       </div>
     </div>
 
     <div class="row text-center mb-5">
-      <div class="col">
+      <div class="col mb-5">
         <a class="btn btn-outline-dark mx-1" href="https://shkvae.gumroad.com/l/coda?wanted=true" data-gumroad-single-product="true" role="button">Unlock for £1</a>
       </div>
     </div>
 
   </div>
 
-  <div class="footer">
+  <div class="footer mt-5">
     <div class="container text-center">
-      <p><a href="https://www.youtube.com/c/keshhh/featured" class="link-dark">Copyright &#169; 2022 Kesh</a></p>
+      <p>Copyright &#169; 2022 Kesh </p>
+      <p><a href="https://www.youtube.com/c/keshhh/featured" class="link-dark"><i class="bi bi-youtube"></i></a></p>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
