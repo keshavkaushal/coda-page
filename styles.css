@@ -3,6 +3,10 @@ body {
 	background-color: #FAF9F6;
 }
 
+a {
+	text-decoration: none;
+}
+
 .hoverr:hover {
 	opacity: 0.75;
 }
