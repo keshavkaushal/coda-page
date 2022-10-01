@@ -3,6 +3,10 @@ body {
 	background-color: #FAF9F6;
 }
 
+.hoverr:hover {
+	opacity: 0.8;
+}
+
 .ib {
 	display: inline-block;
 }
