@@ -1,4 +1,42 @@
-body {}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.holder {
+	background-color: #0000008a;
+	border-radius: 30px;
+}
+
+.child {
+  display: inline-block;
+}
+
+.float{
+	position:fixed;
+	top:40px;
+	right:50px;
+	color:#FFF;
+	z-index: 1;
+}
+
+.my-float{
+	border-radius: 30px;
+	height: 60px;
+}
+
+
+.vh-80 {
+	height: 80vh;
+}
+
+.mt-10 {
+	margin-top: 40vh;
+}
+
+.bg {
+	background-color: #121212;
+	color: white;
+}
 
 .top {
 	background-color: #121212;
@@ -7,7 +45,7 @@ body {}
 	position: relative;
 }
 
-.top video {
+.top .cover {
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -16,13 +54,12 @@ body {}
 }
 
 .big-logo {
-	width: 8vw;
+	width: 7vh;
 }
 
 .textoverlay {
   z-index: 1;
   position: relative;
-  text-align: center;
   padding: 10px;
 }
 
@@ -58,9 +95,8 @@ body {}
 }
 
 .footer {
-	background-color: #ededed;
-	color: #121212;
-	padding: 50px 0px;
+	color: #fff;
+	height: 40vh;
 }
 
 .btn {
@@ -77,4 +113,13 @@ body {}
 
 .aspect {
 	aspect-ratio: 16 / 9;
+}
+
+.opps {
+	color: rgb(255, 255, 255); 
+    mix-blend-mode: difference;
+}
+
+.w-50 {
+	width: 50%;
 }
