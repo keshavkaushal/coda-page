@@ -1,10 +1,22 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	/*font-family: 'Source Sans Pro', sans-serif;*/
+	background-color: #FAF9F6;
+}
+
+.ib {
+	display: inline-block;
 }
 
 .holder {
-	background-color: #0000008a;
+	background-color: #00000052;
 	border-radius: 30px;
+}
+
+.holder-btn {
+	background-color: #0000008a;
+	border-radius: 25px;
+	text-decoration: none;
+	color: white;
 }
 
 .child {
