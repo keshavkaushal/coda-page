@@ -48,6 +48,9 @@ a {
 	height: 60px;
 }
 
+.bold {
+	font-weight: bold;
+}
 
 .vh-80 {
 	height: 80vh;
